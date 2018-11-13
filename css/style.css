@@ -1,0 +1,77 @@
+/* Importing external font family: */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	font-family: 'Roboto', 'Verdana', sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #EEE;
+	color: #333;
+	padding-top: 50px;
+	margin: 0px;
+}
+
+article {
+	min-height: 200px;
+	margin: 10px 0px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.margin-0 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.padding-top-bottom {
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+
+.clear::after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.my-btn {
+	background: rgb(51, 51, 51);
+	color: white; 
+	position: fixed;
+    bottom: 20px; 
+	right: 30px; 
+	padding: 15px; 
+    border-radius: 10px; 
+    z-index: 99; 
+    border: none;
+    cursor: pointer; 
+}
+
+.my-btn:hover {
+    background-color: #555;
+}
+
+/* to apply different styles for different media types / devices. */
+@media (max-width: 768px) {
+	.container {
+		width: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0px;
+	}
+}
