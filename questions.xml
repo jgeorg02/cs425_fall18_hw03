@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+    <question_type level="easy" points="5">
+        <question id="1">
+            <q>PHP is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="2">
+            <q>HTML is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="3">
+            <q>Vanilla Javascript is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="4">
+            <q>PHP is a:</q>
+            <first_choice>Programming Language</first_choice>
+            <second_choice>Scripting Language</second_choice>
+            <third_choice>Markup Language</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="5">
+            <q>Javascript is a:</q>
+            <first_choice>Programming Language</first_choice>
+            <second_choice>Scripting Language</second_choice>
+            <third_choice>Markup Language</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="6">
+            <q>HTML is a:</q>
+            <first_choice>Programming Language</first_choice>
+            <second_choice>Scripting Language</second_choice>
+            <third_choice>Markup Language</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="7">
+            <q>XML is a:</q>
+            <first_choice>Programming Language</first_choice>
+            <second_choice>Scripting Language</second_choice>
+            <third_choice>Markup Language</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="8">
+            <q>What does HTML stand for?</q>
+            <first_choice>Hyperlinks and Text Markup Language</first_choice>
+            <second_choice>Hyper Text Markup Language</second_choice>
+            <third_choice>Home Tool Markup Language</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="9">
+            <q>Choose the correct HTML element for the largest heading:</q>
+            <first_choice>h1</first_choice>
+            <second_choice>h2</second_choice>
+            <third_choice>h3</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="10">
+            <q>What is the correct HTML element for inserting a line break?</q>
+            <first_choice>br</first_choice>
+            <second_choice>break</second_choice>
+            <third_choice>n</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+    </question_type>
+    <question_type level="medium" points="10">
+        <question id="1">
+            <q>Node.js is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+    </question_type>
+    <question_type level="hard" points="15">
+        <question id="1">
+            <q>PHP is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+    </question_type>
+</questions>
