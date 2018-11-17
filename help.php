@@ -1,8 +1,18 @@
 <?php
 include 'top.html';
-include 'bottom.html';
+session_start(); session_unset();
 ?>
 
-  <script> 
-  document.getElementById('help_page').classList.add('active');
-  </script>
+    <script>
+        document.getElementById('scores_page').classList.add('active');
+    </script>
+
+    <!-- Back to top button -->
+    <a class="my-btn" href="help.php">Top</a>
+    <!-- /Back to top button -->
+
+<?php
+include 'bottom.html';
+$questions = new question();
+$questions->newGame();
+?>

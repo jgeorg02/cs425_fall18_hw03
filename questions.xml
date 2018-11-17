@@ -74,19 +74,75 @@
     </question_type>
     <question_type level="medium" points="10">
         <question id="1">
-            <q>Node.js is running on:</q>
+            <q>mediumNode.js is running on:</q>
             <first_choice>The Client's Side</first_choice>
             <second_choice>The Server's Side</second_choice>
             <third_choice>Somewhere in between</third_choice>
             <right_choice>s</right_choice>
         </question>
-    </question_type>
-    <question_type level="hard" points="15">
-        <question id="1">
-            <q>PHP is running on:</q>
+        <question id="2">
+            <q>mediumHTML is running on:</q>
             <first_choice>The Client's Side</first_choice>
             <second_choice>The Server's Side</second_choice>
             <third_choice>Somewhere in between</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="3">
+            <q>mediumVanilla Javascript is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="4">
+            <q>mediumPHP is a:</q>
+            <first_choice>Programming Language</first_choice>
+            <second_choice>Scripting Language</second_choice>
+            <third_choice>Markup Language</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="5">
+            <q>mediumJavascript is a:</q>
+            <first_choice>Programming Language</first_choice>
+            <second_choice>Scripting Language</second_choice>
+            <third_choice>Markup Language</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+    </question_type>
+    <question_type level="hard" points="15">
+        <question id="1">
+            <q>HARDPHP is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="2">
+            <q>HARDHTML is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="3">
+            <q>HARDVanilla Javascript is running on:</q>
+            <first_choice>The Client's Side</first_choice>
+            <second_choice>The Server's Side</second_choice>
+            <third_choice>Somewhere in between</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="4">
+            <q>HARDPHP is a:</q>
+            <first_choice>Programming Language</first_choice>
+            <second_choice>Scripting Language</second_choice>
+            <third_choice>Markup Language</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="5">
+            <q>HARDJavascript is a:</q>
+            <first_choice>Programming Language</first_choice>
+            <second_choice>Scripting Language</second_choice>
+            <third_choice>Markup Language</third_choice>
             <right_choice>s</right_choice>
         </question>
     </question_type>
