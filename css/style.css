@@ -18,8 +18,21 @@ body {
     margin: 0px;
 }
 
-button{
+button {
     margin: 0 auto;
+}
+
+nav {
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+form {
+    padding: 40px;
 }
 
 .text-center {
@@ -66,13 +79,13 @@ button{
     background-color: #555;
 }
 
-.center-elements{
+.center-elements {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-input[type=submit]{
+input[type=submit] {
     background-color: #555;
     color: white;
     border: none;
@@ -88,5 +101,13 @@ input[type=submit]{
         padding-left: 10px;
         padding-right: 10px;
         margin: 0px;
+    }
+    form {
+        width:auto;
+        padding: 20px;
+    }
+
+    header, footer {
+        width: auto;
     }
 }
