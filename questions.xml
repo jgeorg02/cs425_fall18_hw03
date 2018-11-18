@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <questions>
     <question_type level="easy" points="5">
+        <question id="0">
+            <q>What is document object model (DOM)?</q>
+            <first_choice>convention for representing and interacting with objects in html documents</first_choice>
+            <second_choice>application programming interface</second_choice>
+            <third_choice>none of the mentioned</third_choice>
+            <right_choice>f</right_choice>
+        </question>
         <question id="1">
             <q>PHP is running on:</q>
             <first_choice>The Client's Side</first_choice>
@@ -71,79 +78,488 @@
             <third_choice>n</third_choice>
             <right_choice>f</right_choice>
         </question>
+        <question id="11">
+            <q>What is the correct HTML element for inserting a meta data?</q>
+            <first_choice>body</first_choice>
+            <second_choice>html</second_choice>
+            <third_choice>head</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="12">
+            <q>What is the correct HTML element for importing a link?</q>
+            <first_choice>body</first_choice>
+            <second_choice>html</second_choice>
+            <third_choice>head</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="13">
+            <q>What is the correct way to concatenate php strings?</q>
+            <first_choice>.</first_choice>
+            <second_choice>+</second_choice>
+            <third_choice>,</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="14">
+            <q>What is the correct way to concatenate javascript strings?</q>
+            <first_choice>.</first_choice>
+            <second_choice>+</second_choice>
+            <third_choice>,</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="15">
+            <q>How can we manipulate in CSS the class element "container"?</q>
+            <first_choice>#container</first_choice>
+            <second_choice>.container</second_choice>
+            <third_choice>container</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="16">
+            <q>How can we manipulate in CSS the element with id "container"?</q>
+            <first_choice>#container</first_choice>
+            <second_choice>.container</second_choice>
+            <third_choice>container</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="17">
+            <q>How can we manipulate in CSS the body element?</q>
+            <first_choice>#body</first_choice>
+            <second_choice>.body</second_choice>
+            <third_choice>body</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="18">
+            <q>A piece of icon or image on a web page associated with another webpage is called:</q>
+            <first_choice>url</first_choice>
+            <second_choice>hyperlink</second_choice>
+            <third_choice>reference</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="19">
+            <q>A dynamic web page is:</q>
+            <first_choice>the same every time whenever it displays</first_choice>
+            <second_choice>generates on demand by a program or a request from browser</second_choice>
+            <third_choice>none of the mentioned</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="20">
+            <q>What URL stands for?</q>
+            <first_choice>unique reference label</first_choice>
+            <second_choice>unique resource locator</second_choice>
+            <third_choice>uniform resource locator</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="21">
+            <q>___ is a repository of information linked together from points all over the world.</q>
+            <first_choice>The WWW</first_choice>
+            <second_choice>HTTP</second_choice>
+            <third_choice>HTML</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="22">
+            <q>The ___ is a standard for specifying any kind of information on the Internet.</q>
+            <first_choice>url</first_choice>
+            <second_choice>ulr</second_choice>
+            <third_choice>lru</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="23">
+            <q>In a URL, the ___ is the client-server program used to retrieve the document.</q>
+            <first_choice>path</first_choice>
+            <second_choice>protocol</second_choice>
+            <third_choice>host</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="24">
+            <q>In a URL, the ___ is the computer on which the information is located.</q>
+            <first_choice>path</first_choice>
+            <second_choice>protocol</second_choice>
+            <third_choice>host</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="25">
+            <q>In a URL, the ___ is the full name of the file where the information is located.</q>
+            <first_choice>path</first_choice>
+            <second_choice>protocol</second_choice>
+            <third_choice>host</third_choice>
+            <right_choice>f</right_choice>
+        </question>
     </question_type>
     <question_type level="medium" points="10">
-        <question id="1">
-            <q>mediumNode.js is running on:</q>
+        <question id="0">
+            <q>Node.js is running on:</q>
             <first_choice>The Client's Side</first_choice>
             <second_choice>The Server's Side</second_choice>
             <third_choice>Somewhere in between</third_choice>
             <right_choice>s</right_choice>
+        </question>
+        <question id="1">
+            <q>AJAX stands for:</q>
+            <first_choice>asynchronous javascript and xml</first_choice>
+            <second_choice>asynchronous JSP and xml</second_choice>
+            <third_choice>advanced javascript and xml</third_choice>
+            <right_choice>f</right_choice>
         </question>
         <question id="2">
-            <q>mediumHTML is running on:</q>
-            <first_choice>The Client's Side</first_choice>
-            <second_choice>The Server's Side</second_choice>
-            <third_choice>Somewhere in between</third_choice>
-            <right_choice>f</right_choice>
+            <q>DNS is an Internet service that translates domain names to or from ___.</q>
+            <first_choice>MAC address</first_choice>
+            <second_choice>IP address</second_choice>
+            <third_choice>Both a and b</third_choice>
+            <right_choice>s</right_choice>
         </question>
         <question id="3">
-            <q>mediumVanilla Javascript is running on:</q>
-            <first_choice>The Client's Side</first_choice>
-            <second_choice>The Server's Side</second_choice>
-            <third_choice>Somewhere in between</third_choice>
-            <right_choice>f</right_choice>
+            <q>Which protocol is used for secure communication over internet?</q>
+            <first_choice>HTTP</first_choice>
+            <second_choice>HTTPS</second_choice>
+            <third_choice>TCP</third_choice>
+            <right_choice>s</right_choice>
         </question>
         <question id="4">
-            <q>mediumPHP is a:</q>
-            <first_choice>Programming Language</first_choice>
-            <second_choice>Scripting Language</second_choice>
-            <third_choice>Markup Language</third_choice>
-            <right_choice>s</right_choice>
+            <q>Which are the big platforms GAFA?</q>
+            <first_choice>Google, Apple, Facebook, Amazon</first_choice>
+            <second_choice>Google, Arpanet, Facebook, Amazon</second_choice>
+            <third_choice>Google, Apple, Facebook, Aliexpress</third_choice>
+            <right_choice>f</right_choice>
         </question>
         <question id="5">
-            <q>mediumJavascript is a:</q>
-            <first_choice>Programming Language</first_choice>
-            <second_choice>Scripting Language</second_choice>
-            <third_choice>Markup Language</third_choice>
+            <q>When was ARPANET invented?:</q>
+            <first_choice>1821</first_choice>
+            <second_choice>1974</second_choice>
+            <third_choice>1969</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="6">
+            <q>Who is the founder of Facebook?</q>
+            <first_choice>Allen Turing</first_choice>
+            <second_choice>Steve Jobs</second_choice>
+            <third_choice>Mark Zuckerberg</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="7">
+            <q>Who is one of the founders of Apple?</q>
+            <first_choice>Bill Gates</first_choice>
+            <second_choice>Steve Jobs</second_choice>
+            <third_choice>Mark Zuckerberg</third_choice>
             <right_choice>s</right_choice>
+        </question>
+        <question id="8">
+            <q>Who is one of the founders of Microsoft?</q>
+            <first_choice>Bill Gates</first_choice>
+            <second_choice>Steve Jobs</second_choice>
+            <third_choice>Mark Zuckerberg</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="9">
+            <q>Which of the following is the first browser?</q>
+            <first_choice>Netscape Mosaic</first_choice>
+            <second_choice>Chrome</second_choice>
+            <third_choice>Internet Explorer</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="10">
+            <q>ISP stands for:</q>
+            <first_choice>Internet Service Provider</first_choice>
+            <second_choice>International Server Protocol</second_choice>
+            <third_choice>Internet Service Protocol</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="11">
+            <q>Which of the following is not a component of networking?</q>
+            <first_choice>Hubs</first_choice>
+            <second_choice>Routers</second_choice>
+            <third_choice>Cpu</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="12">
+            <q>What IP stands for:</q>
+            <first_choice>Internet Procedure</first_choice>
+            <second_choice>Internet Provider</second_choice>
+            <third_choice>Internet Protocol</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="13">
+            <q>What WWW stands for:</q>
+            <first_choice>World Wide Web</first_choice>
+            <second_choice>World Working Web</second_choice>
+            <third_choice>Wide World Web</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="14">
+            <q>The term DNS stands for</q>
+            <first_choice>Domain Name Server</first_choice>
+            <second_choice>Domain Name Service</second_choice>
+            <third_choice>Domain Name System</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="15">
+            <q>IPv4 and IPv6 are addresses used to identify computers on the internet. Find the correct statement out of
+                the following:
+            </q>
+            <first_choice>Number of bits required for IPv4 address is more than number of bits required for IPv6
+                address.
+            </first_choice>
+            <second_choice>Number of bits required for IPv4 address is less than number of bits required for IPv6
+                address.
+            </second_choice>
+            <third_choice>Number of bits required for IPv4 address is same as number of bits required for IPv6
+                address.
+            </third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="16">
+            <q>Inside which HTML element do we put the JavaScript?</q>
+            <first_choice>script</first_choice>
+            <second_choice>javascript</second_choice>
+            <third_choice>js</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="17">
+            <q>Where is the correct place to insert a JavaScript?</q>
+            <first_choice>The body section</first_choice>
+            <second_choice>The head section</second_choice>
+            <third_choice>Both the head section and the body section are correct</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="18">
+            <q>What is the correct syntax for referring to an external script called "xxx.js"?</q>
+            <first_choice>script name="xxx.js"</first_choice>
+            <second_choice>script href="xxx.js"</second_choice>
+            <third_choice>script src="xxx.js"</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="19">
+            <q>Which event occurs when the user clicks on an HTML element?</q>
+            <first_choice>onmouseclick</first_choice>
+            <second_choice>onclick</second_choice>
+            <third_choice>onchange</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="20">
+            <q>What is the key value for declaring variables in Javascript?</q>
+            <first_choice>$</first_choice>
+            <second_choice>variable</second_choice>
+            <third_choice>var</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="21">
+            <q>Is JavaScript case-sensitive?</q>
+            <first_choice>yes</first_choice>
+            <second_choice>no</second_choice>
+            <third_choice>idk</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="22">
+            <q>What does PHP stand for?</q>
+            <first_choice>Private Home Page</first_choice>
+            <second_choice>Personal Hypertext Processor</second_choice>
+            <third_choice>PHP: Hypertext Preprocessor</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="23">
+            <q>What is the key value for declaring variables in php?</q>
+            <first_choice>$</first_choice>
+            <second_choice>variable</second_choice>
+            <third_choice>var</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="24">
+            <q>In PHP you can use both single quotes and double quotes for strings:</q>
+            <first_choice>idk</first_choice>
+            <second_choice>no</second_choice>
+            <third_choice>yes</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="25">
+            <q>In php include files must have the file extension ".inc"</q>
+            <first_choice>no</first_choice>
+            <second_choice>idk</second_choice>
+            <third_choice>yes</third_choice>
+            <right_choice>f</right_choice>
         </question>
     </question_type>
     <question_type level="hard" points="15">
+        <question id="0">
+            <q>In php the only way to output is through echo?</q>
+            <first_choice>no</first_choice>
+            <second_choice>yes</second_choice>
+            <third_choice>idk</third_choice>
+            <right_choice>f</right_choice>
+        </question>
         <question id="1">
-            <q>HARDPHP is running on:</q>
-            <first_choice>The Client's Side</first_choice>
-            <second_choice>The Server's Side</second_choice>
-            <third_choice>Somewhere in between</third_choice>
-            <right_choice>s</right_choice>
+            <q>Is PHP an object oriented language?</q>
+            <first_choice>Yes</first_choice>
+            <second_choice>No</second_choice>
+            <third_choice>idk</third_choice>
+            <right_choice>f</right_choice>
         </question>
         <question id="2">
-            <q>HARDHTML is running on:</q>
-            <first_choice>The Client's Side</first_choice>
-            <second_choice>The Server's Side</second_choice>
-            <third_choice>Somewhere in between</third_choice>
+            <q>Which one is a wrong syntax declared variable in php?</q>
+            <first_choice>$my-variable</first_choice>
+            <second_choice>$my_variable</second_choice>
+            <third_choice>$myVariable</third_choice>
             <right_choice>f</right_choice>
         </question>
         <question id="3">
-            <q>HARDVanilla Javascript is running on:</q>
-            <first_choice>The Client's Side</first_choice>
-            <second_choice>The Server's Side</second_choice>
-            <third_choice>Somewhere in between</third_choice>
+            <q>What does CSS stand for?</q>
+            <first_choice>Cascading Style Sheets</first_choice>
+            <second_choice>Colorful Style Sheets</second_choice>
+            <third_choice>Color Style Sheets</third_choice>
             <right_choice>f</right_choice>
         </question>
         <question id="4">
-            <q>HARDPHP is a:</q>
-            <first_choice>Programming Language</first_choice>
-            <second_choice>Scripting Language</second_choice>
-            <third_choice>Markup Language</third_choice>
+            <q>Where in an HTML document is the correct place to refer to an external style sheet?</q>
+            <first_choice>At the end of the document</first_choice>
+            <second_choice>In the head section</second_choice>
+            <third_choice>In the body section</third_choice>
             <right_choice>s</right_choice>
         </question>
         <question id="5">
-            <q>HARDJavascript is a:</q>
-            <first_choice>Programming Language</first_choice>
-            <second_choice>Scripting Language</second_choice>
-            <third_choice>Markup Language</third_choice>
+            <q>Which HTML tag is used to define an internal style sheet?</q>
+            <first_choice>script</first_choice>
+            <second_choice>style</second_choice>
+            <third_choice>css</third_choice>
             <right_choice>s</right_choice>
+        </question>
+        <question id="6">
+            <q>In CSS how do you select all p elements inside a div element?</q>
+            <first_choice>div p</first_choice>
+            <second_choice>div.p</second_choice>
+            <third_choice>div+p</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="7">
+            <q>In CSS how do you group selectors?</q>
+            <first_choice>Separate each selector with a plus sign</first_choice>
+            <second_choice>Separate each selector with a space</second_choice>
+            <third_choice>Separate each selector with a comma</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="8">
+            <q>In CSS how do you display a border like this: The top border = 10 pixels, the bottom border = 5 pixels,
+                the left border = 20 pixels, the right border = 1pixel?
+            </q>
+            <first_choice>border-width:10px 5px 1px 20px;</first_choice>
+            <second_choice>border-width:10px 1px 5px 20px</second_choice>
+            <third_choice>border-width:10px 20px 5px 1px;</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="9">
+            <q>Which HTML element defines navigation links in HTML?</q>
+            <first_choice>nav</first_choice>
+            <second_choice>navigation</second_choice>
+            <third_choice>navigator</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="10">
+            <q>World Wide Web was proposed by</q>
+            <first_choice>Bill Rogers</first_choice>
+            <second_choice>ARPANET</second_choice>
+            <third_choice>Tim Berners-Lee</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="11">
+            <q>The internet is also known as:</q>
+            <first_choice>NAT</first_choice>
+            <second_choice>NIT</second_choice>
+            <third_choice>NET</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="12">
+            <q>TCP stands for:</q>
+            <first_choice>Transmission Communicational Protocol</first_choice>
+            <second_choice>Transform Control Protocol</second_choice>
+            <third_choice>Transmission Control Protocol</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="13">
+            <q>Which protocol helps to transfer files between computers?</q>
+            <first_choice>FTP</first_choice>
+            <second_choice>HTTP</second_choice>
+            <third_choice>HTTPS</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="14">
+            <q>XML stands for:</q>
+            <first_choice>Extra Markup Language</first_choice>
+            <second_choice>Extended Markup Language</second_choice>
+            <third_choice>Extended Marking Links</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="15">
+            <q>Internet uses:</q>
+            <first_choice>Circuit switching</first_choice>
+            <second_choice>Packet switching</second_choice>
+            <third_choice>Telephone switching</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="16">
+            <q>We use __ to send and receive electronic mail.</q>
+            <first_choice>Simple Mail Transfer Protocol</first_choice>
+            <second_choice>Simple Mail Transport Protocol</second_choice>
+            <third_choice>Simple Mail Transition Protocol</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="17">
+            <q>Are HTTP requests stateless requests?</q>
+            <first_choice>idk</first_choice>
+            <second_choice>no</second_choice>
+            <third_choice>yes</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="18">
+            <q>Are HTTP requests stateful requests?</q>
+            <first_choice>idk</first_choice>
+            <second_choice>no</second_choice>
+            <third_choice>yes</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="19">
+            <q>Which of the following protocols make the Internet an Hourglass architecture?</q>
+            <first_choice>TCP</first_choice>
+            <second_choice>IP</second_choice>
+            <third_choice>HTTP</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="20">
+            <q>Which of the following ones are true?</q>
+            <first_choice>Internet is client-server architecture</first_choice>
+            <second_choice>Internet is an hourglass architecture</second_choice>
+            <third_choice>all of the above</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="21">
+            <q>Protocol which is used to access web pages on world wide web is:</q>
+            <first_choice>Ethernet</first_choice>
+            <second_choice>HTTP</second_choice>
+            <third_choice>HTML</third_choice>
+            <right_choice>s</right_choice>
+        </question>
+        <question id="22">
+            <q>PHP belongs to the:</q>
+            <first_choice>front-end</first_choice>
+            <second_choice>middle</second_choice>
+            <third_choice>back-end</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="23">
+            <q>HTML belongs to the:</q>
+            <first_choice>front-end</first_choice>
+            <second_choice>middle</second_choice>
+            <third_choice>back-end</third_choice>
+            <right_choice>f</right_choice>
+        </question>
+        <question id="24">
+            <q>Can we embed html, javascript and php in one file?</q>
+            <first_choice>idk</first_choice>
+            <second_choice>no</second_choice>
+            <third_choice>yes</third_choice>
+            <right_choice>t</right_choice>
+        </question>
+        <question id="25">
+            <q>Which of the following ones can a browser understand:</q>
+            <first_choice>HTML, CSS, JAVASCRIPT</first_choice>
+            <second_choice>HTML, SASS, JAVASCRIPT</second_choice>
+            <third_choice>none of the above</third_choice>
+            <right_choice>f</right_choice>
         </question>
     </question_type>
 </questions>
