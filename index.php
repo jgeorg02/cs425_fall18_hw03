@@ -71,7 +71,7 @@ include 'players.php';
                             if ($_POST['button'] == 'END GAME')
                                 echo '<h3>ENDED GAME</h3> <br/>';
                             echo '<h5>Please wait..</h5></div></form></div></div><br/><br/>';
-                            echo '<meta http-equiv="Refresh" content="0;' . $page . '">';
+                            echo '<meta http-equiv="Refresh" content="1;' . $page . '">';
 
                         } else if (($_POST['button'] == 'NEXT') || ($_POST['button'] == 'FINISH') || ($_POST['button'] == 'START')) {
 
@@ -127,7 +127,7 @@ include 'players.php';
                             else echo '<h5>Your score is not saved!</h5>';
                             echo '</div></form></div></div><br/><br/>';
 
-                            echo '<meta http-equiv="Refresh" content="0;' . $page . '">';
+                            echo '<meta http-equiv="Refresh" content="1;' . $page . '">';
 
                         } else {
                             echo '</div></form></div></div><br/><br/>';

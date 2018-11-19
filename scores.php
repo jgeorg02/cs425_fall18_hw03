@@ -23,7 +23,8 @@ session_unset();
                 $players_array = explode(PHP_EOL, $players);
                 echo '<table style="text-align:center;"><tbody>';
                 foreach ($players_array as $item)
-                    echo '<tr><td><li style="list-style-type:square">' . $item . '</li></td></tr>';
+		    if ($item != "")
+                        echo '<tr><td><li style="list-style-type:square">' . $item . '</li></td></tr>';
 
                 echo '</tbody></table>';
                 ?>
